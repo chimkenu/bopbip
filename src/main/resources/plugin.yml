@@ -1,0 +1,35 @@
+name: Bopbip
+version: '${project.version}'
+main: me.chimkenu.bopbip.Bopbip
+api-version: 1.18
+authors: [ Chimkenu ]
+description: bopbip grind
+commands:
+  help:
+    description: Shows all commands and their descriptions
+    usage: /<command>
+  afk:
+    description: Toggles your afk status
+    usage: /<command>
+  lag:
+    description: Gets the TPS and players' ping
+    usage: /<command>
+  ping:
+    description: Pings a player
+    usage: /<command>
+  playtime:
+    description: Gets the time a player has been on bopbip
+    usage: /<command>
+  insult:
+    description: Insults a player
+    usage: /<command>
+  compliment:
+    description: Compliments a player
+    usage: /<command>
+  tag:
+    description: Queries the tag game status - or starts/ends the tag game
+    usage: /<command>
+  pinglocation:
+    aliases: [ pingloc, pl ]
+    description: Pings a location
+    usage: /<command>
